@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   }
+.main{
+    
+
+}
+.conteiner{
+ 
+    background-image: url(/pregunta2/01.jpeg);
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vh;
+   }
+.barra {
+    background-color: white;
+    width: 100vw;
+    height: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    z-index: 10;
+    top:0px;
+     
+    }
+.logo{
+    height: 35px;
+    padding: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+        
+}    

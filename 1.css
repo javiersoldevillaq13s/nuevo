@@ -1,0 +1,43 @@
+body {
+    background-image: url(/pregunta1/01.png);
+    background-position: center top 130px; 
+    background-repeat: no-repeat; 
+    background-size: 28vw;
+
+ 
+    
+    
+}
+.conteiner{
+   
+   
+    display:flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    background-size: 140vw;
+    width: 100vw;
+    height: 200vh;
+    font-family: Lato, sans-serif;
+    
+   }
+   .info{
+    background-color: aliceblue;
+    display: flex;
+    margin: 150x 45px;
+    justify-content: center;
+    justify-content: center;
+    gap: 189px;
+    background-color: green; /* Color de fondo verde */
+    color: black; /* Color del texto en blanco */
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    text-align: center; /* Alinear el texto en el centro del botón */
+    text-decoration: none; /* Quitar subrayado del texto */
+    display: inline-block; /* Mostrar como elemento en línea */
+    font-size: 16px; /* Tamaño de fuente */
+  
+  
+}
